@@ -26,11 +26,12 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.0.1'
 
 group :test, :development do
-gem 'rspec-rails', "~> 2.12"
+	gem 'rspec-rails', "~> 2.12"
 end
 
 group :test do
-gem 'capybara', "2.0.2"
+	gem 'capybara', "2.0.2"
+	gem 'factory_girl', "2.6.4"
 end
 
 # To use ActiveModel has_secure_password
